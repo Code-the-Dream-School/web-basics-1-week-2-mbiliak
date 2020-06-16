@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* Maria's note: I have designed this page to be viewed at Screen Resolution 1440 x 900 */
+
+body {
+    background-image: url("images/planet.jpg");
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+h1 {
+    vertical-align: middle;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: black;
+    color: #8bb1da;
+    text-align: center;
+    margin: auto;
+    line-height: 100px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: auto;
+}
+
+li a {
+    background-color: rgba(19, 38, 58, 0.6);
+    float: left;
+    margin: 10px 20px 10px 50px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li a:link, nav li a:visited {
+    color: white;
+}
+
+main {
+    width: 900px;
+    margin: auto;
+    background-color: #79a6d2;
+    border: 1px #4080bf inset;
+    box-shadow: 5px 5px 20px 1px #F5F5F5;
+    padding: 10px 10px 10px 25px;
+    clear: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+#portrait {
+    border: 2px black solid;
+    float: left;
+}
+
+#profile p {
+    position: absolute;
+    width: 500px;
+    left: 35%;
+}
+
+#portfolio, hr {
+    clear: both;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+hr {
+    margin-top: 40%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /*border-radius: 50%;*/
+    float:right;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+}
+
+.fa-instagram {
+    background-color: #cc33ff;
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+}
+
+.top a:link, a:visited {
+    color: black;
+}
+
+.top a:hover, a:active {
+    background-color: white;
+}
