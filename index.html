@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
-  <meta name="author" content="name">
-  <meta name="description" content="description here">
-  <meta name="keywords" content="keywords,here">
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
-  <body>
-  <div id="target-div"></div>
-  <script src="index.js" type="text/javascript"></script>
-  </body>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio</title>
+    <meta name="author" content="Maria Biliak">
+    <meta name="description" content="This website is about personal portfolio">
+    <meta name="keywords" content="personal portfolio, HTML, CSS, Javascript">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  
+<body>
+    <header>
+        <h1>M. B.</h1>
+    </header>   
+        <nav>
+            <ul> <!-- This list is intended as a menu -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+<main>
+    <div id="profile">
+        <h2>Profile</h2>
+        <img src="images/profile-pic.jpg" alt= "Profile picture of me" width="200" height="300" id="portrait">
+        <p>Welcome to my portfolio website. My name is Maria Biliak. I live in Chicago, Illinois. I am originally from Ukraine where I was born, went to school, and graduated with Bachelor's and Master's degrees in education. I moved to the USA two years ago. Currently I am a student at Wilbur Wright College where I pursue my Associate's degree in Web Development, and at the same time learning programming at Code the Dream Sunrise class. In my free time, I like to play guitar, watch movies and spend time with my family and friends. Here you will also find my works and contact info.</p>
+    </div>
+    
+    <hr>
+    
+    <div id="portfolio">
+        <h2>Portfolio</h2>
+            <figure>
+                <a href="travel/index.html" target="_blank"><img src="images/terrace.jpg" alt="Terrace on the streets of Lviv" width="400" height="300"></a>
+            <figcaption>
+                This is my school project about the favorite vacation spot.
+            </figcaption>
+            </figure>
+    </div>
+    
+    <div class="contact">
+        <h2>Contact</h2>
+        
+        <form method="post" action="http://www.rebol.com/cgi-bin/test-cgi.cgi">
+        
+        <p>First Name: <input type="text" name="firstname"></p>
+        <p>Last Name: <input type="text" name="lastname"></p>
+        <p>Email address: <input type="text" name="emailaddress"></p>
+        
+        <p>Comment:<br>
+        <textarea name="comments" cols="40" rows="4"></textarea></p>
+        
+        <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
+    
+    <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+    <footer>
+        <p><a href="#top" class="top">Back to top</a></p>
+    </footer>
+</main> 
+</body>
 </html>

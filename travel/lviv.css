@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 88, 50);
+    background-image: url("images/wood.jpg");
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#container {
+	background-color: RGB(217,224,182);
+	background-image: URL("images/paper-texture.jpg");
+	width: 1105px;
+	margin: 0 auto; /* centers the div */
+	padding: 20px;
+	overflow: auto;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    text-shadow: -2px 2px 2px #8c8c8c;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+nav li {
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 18px;
+    float: left;
+}
+
+nav li a:link, nav li a:visited {
+	background-color: #0c0c0a;
+	color: white;
+	display: inline-block;
+    width: 100%;
+	height: 100%;
+    text-decoration: none; /* no underline */
+}
+
+nav li a:hover {
+	background-color: #7C8472; /* olive green */
+}
+
+nav li a:active {
+	background-color: #83c9bd; /* turquoise */
+	color: black;
+
+}
+
+aside {
+    border: 3px groove;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: fantasy, "Lucida sans", Times, serif;
+    margin: 3em;
+}
+
+aside:first-letter {
+    float: left;
+    font-size: 50px;
+    line-height: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+article {
+    margin: 2em 1em 1em 0; /* clockwise from the top */
+}
+
+#statue {
+    margin: 0 10px;
+    float: right;
+}
+
+p {
+    margin-top: 1em;
+}
+
+img {
+    border: 1px #800000 solid;
+    margin: 5px 10px;
+}
+
+#view {
+    display: block;
+    margin: auto;
+}
+
+#center {
+    text-align: center;
+}
+
+.credit {
+    font-size: 75%;
+    font-style: italic;
+}
+
+.place li, .place h4{
+    margin: 20px;
+    font: italic bold 20px courier;
+}
+
+table, tr {
+    border: 3px solid;
+    border-collapse: collapse;
+    background-color: #D3D3D3;
+    width: 80%;
+    margin: 10px auto;
+}
+
+td, th {
+    border: 3px solid;
+    margin: 50%;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px black groove;
+    clear: both;
+}
+
+footer a:link, footer a:visited {
+    color: #7B6606;
+}
+
+footer a:hover {
+    background-color: white;
+}
+
+footer a:active {
+    background-color: #C49C77;
+    color: #DAF7A6 ;
+}
